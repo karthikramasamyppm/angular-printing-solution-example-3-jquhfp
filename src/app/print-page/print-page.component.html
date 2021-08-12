@@ -1,0 +1,80 @@
+<div class="row">
+  <div class="col-sm-2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAr79q8GgsNrPcNgk-2eTg-ThvyXJGbNqK6fO8BkP7bbmPHK0-ja5Ah437A8G6LH52gkk&usqp=CAU" alt="MEC_Logo" class="logotipo" />
+  </div>
+  <div class="col-sm-8">
+    <h2 style="text-align: center;">
+      Mahendra Engineering college(Autonomous)
+    </h2>
+    <h4 style="text-align: center;">
+      Salem-Tiruchengode Highway Mahendrapuri,
+      <br />Mallasamuthiram-637503.
+    </h4>
+    <h4 style="text-transform: uppercase; text-align: center;">
+      Receipt
+    </h4>
+  </div>
+</div>
+<table class="table table-bordered table-dark">
+  <tr>
+    <th style="width:10%"><label>Receipt No:</label></th>
+    <td style="width:10%">MECIR0000123</td>
+    <th style="width:50%"><label>Name:</label></th>
+    <td style="width:50%">RAMASAMY KARTHIK</td>
+    <th style="width:40%"><label>Roll No:</label></th>
+    <td style="width:40%">116UCS016</td>
+  </tr>
+  <tr>
+    <th style="width:10%"><label>Date:</label></th>
+    <td style="width:10%">20-11-2020</td>
+    <th style="width:50%"><label>Degree / Branch:</label></th>
+    <td style="width:50%">BE-CSE</td>
+    <th style="width:40%"><label>Academic Year:</label></th>
+    <td style="width:40%">2020</td>
+  </tr>
+</table>
+<table class="table table-bordered table-dark">
+  <tr>
+    <th style="width:10%;text-align: center;">S.No</th>
+    <th style="width:20%;text-align: center;">Category</th>
+    <th style="width:40%;text-align: center;">Description</th>
+    <th style="width:30%;text-align: center;">Amount</th>
+  </tr>
+  <tr>
+    <td style="width:10%;text-align: center;">1</td>
+    <td style="width:20%;text-align: center;">1 Semseter</td>
+    <td style="width:40%;text-align: center;">Tuition Fees</td>
+    <td style="width:30%;text-align: center;">5000</td>
+  </tr>
+  <tr>
+    <td style="width:10%;text-align: center;">1</td>
+    <td style="width:20%;text-align: center;">1 Semseter</td>
+    <td style="width:40%;text-align: center;">Tuition Fees</td>
+    <td style="width:30%;text-align: center;">5000</td>
+  </tr>
+</table>
+<table class="table table-bordered table-dark">
+  <tr style="font-weight: bold;">
+    <td>Total</td>
+    <td>10000</td>
+  </tr>
+</table>
+<div style="text-align: center;" *ngIf="receipt.mode_of_payment!='Cash'">
+  Excess Amount Rs: {{ receipt.excess_amt}}
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      <div class="col-sm-9">
+        <p>Mode of Pay: Cash</p>
+        <p>Remarks:Here is the relevant data that you want to print</p>
+      </div>
+      <br><br>
+      <div class="col-sm-3">
+        <div>
+          <p style="text-align: center; margin-top: 12%;">Authorised Signature</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

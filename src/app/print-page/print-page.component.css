@@ -1,0 +1,102 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+img {
+  margin: 0;
+} /* margin reset*/
+h1 {
+  font-size: 18pt;
+  font-weight: 500;
+  margin-bottom: 0.5cm;
+}
+h2 {
+  font-size: 16pt;
+  font-weight: 500;
+}
+h4 {
+  font-size: 10pt;
+  font-weight: 300;
+}
+p {
+  font-size: 12pt;
+}
+
+.items-group {
+  border-style: solid;
+  border-color: black;
+  border-width: 1pt 1pt 1pt 1pt;
+  border-radius: 5pt;
+  padding: 3pt 3pt 3pt 3pt;
+  margin: 9pt 0 9pt 0;
+}
+
+.logotipo {
+  width: 2cm;
+  height: 2cm;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.disclaimer,
+.address p {
+  font-size: 10pt;
+}
+
+.signature-field {
+  padding-bottom: 24pt;
+  border-bottom: solid black 1pt;
+}
+.print_table {
+  border: solid 1px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.print_table th {
+  border-color: black;
+  font-size: 16px;
+  border: solid 1px;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.print_table td {
+  border-color: black;
+  font-size: 16px;
+  border: solid 1px;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+.print_table tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.print_table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+table {
+  border-collapse: collapse;
+}
+
+table,
+td,
+th {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  width: 100%;
+}
+
+table + table,
+table + table tr:first-child > * {
+  border-top: 0;
+  width: 100%;
+}
