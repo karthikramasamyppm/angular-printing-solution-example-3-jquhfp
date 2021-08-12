@@ -104,17 +104,6 @@ table + table tr:first-child > * {
   box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: '';
-  clear: both;
-  display: table;
-}
 .iconDetails {
   margin-left: 2%;
   float: left;
@@ -126,4 +115,10 @@ table + table tr:first-child > * {
   width: 100%;
   height: auto;
   padding: 1%;
+}
+
+.column {
+  text-indent: 20px;
+  float: left;
+  width: 50%;
 }

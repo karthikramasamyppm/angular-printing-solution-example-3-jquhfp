@@ -15,6 +15,7 @@
     </h4>
   </div>
 </div>
+<br/>
 <table class="table table-bordered table-dark">
   <tr>
     <th style="width:10%"><label>Receipt No:</label></th>
@@ -59,16 +60,18 @@
     <td>10000</td>
   </tr>
 </table>
-<div style="text-align: center;" *ngIf="receipt.mode_of_payment!='Cash'">
-  Excess Amount Rs: {{ receipt.excess_amt}}
-</div>
-<div class="row">
-  <div class="column">
-    <p> Mode of Pay: Cash</p>
-    <p> Remarks:Here is the relevant data that you want to print</p>
+  <div style="text-align: center;" *ngIf="receipt.mode_of_payment!='Cash'">
+    Excess Amount Rs: {{ receipt.excess_amt}}
   </div>
-  <div class="column">
-    <div>
+  <div class="row">
+    <div class="column">
+      <p>
+        Mode of Pay: Cash
+      </p>
+      <p>Remarks:KL</p>
+
+    </div>
+    <div class="column">
       <p>Authorised Signature</p>
     </div>
   </div>
